@@ -16,5 +16,27 @@ body {
     border-radius: 10px;
     width: 300px;
     overflow: hidden;
-    
+
+}
+
+.header {
+    background-color: rgb(48, 48, 250);
+    color: white;
+    padding: 35px 20px;
+}
+
+.filter-sub-heading {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+
+.input-filter {
+    background-color: rgb(179, 179, 179);
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
 }
