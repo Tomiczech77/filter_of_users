@@ -33,3 +33,15 @@ async function getData(){
         userList.push(li);
     });
 };
+
+function dataFilter(inputText){
+    userList.forEach(oneUser => {
+        if(oneUser.innerText.toLowerCase().includes(inputText.toLowerCase())){
+            oneUser.classList.remove("hide");
+        } else {
+            oneUser.classList.add("hide");
+        }
+    })
+}
+
+
